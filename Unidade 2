@@ -1,68 +1,96 @@
+# Exercícios Básicos de Kotlin
 
-Aqui estão 10 exercícios que podem ser enviados aos alunos de um curso de Kotlin sobre os temas que você mencionou:
+## Exercício 1: Variáveis e Constantes
+**Objetivo:** Trabalhar com variáveis e constantes no Kotlin.
 
-Exercício 1: Variáveis e Constantes
-Objetivo: Trabalhar com variáveis e constantes no Kotlin.
+- Crie uma variável mutável chamada `nome` do tipo `String` e atribua o valor `"Maria"`.
+- Crie uma constante chamada `PI` do tipo `Double` e atribua o valor `3.14159`.
+- Imprima o valor de ambas, a variável e a constante.
+- Tente modificar o valor da constante `PI` (isso deverá gerar um erro, como demonstração).
 
-Crie uma variável mutável chamada nome do tipo String e atribua o valor "Maria".
-Crie uma constante chamada PI do tipo Double e atribua o valor 3.14159.
-Imprima o valor de ambas, a variável e a constante.
-Tente modificar o valor da constante PI (isso deverá gerar um erro, como demonstração).
-Exercício 2: RawStrings e Saídas Interpoladas
-Objetivo: Trabalhar com RawStrings e interpolação de strings.
+---
 
-Crie uma RawString (usando três aspas duplas """).
-Adicione um texto com várias linhas e caracteres especiais.
-Crie uma variável nome do tipo String e atribua um nome a ela.
-Use interpolação de strings para criar uma mensagem que inclua o nome da pessoa e imprima-a.
-Exercício 3: Inferência de Tipo e Tipo Any
-Objetivo: Trabalhar com inferência de tipos e o tipo Any.
+## Exercício 2: RawStrings e Saídas Interpoladas
+**Objetivo:** Trabalhar com RawStrings e interpolação de strings.
 
-Crie uma variável numero que contenha um número inteiro, e uma variável texto que contenha uma String. Deixe o Kotlin inferir os tipos automaticamente.
-Crie uma variável objeto do tipo Any e atribua a ela um número inteiro, uma String e um booleano. Imprima os valores.
-Mostre que a variável objeto pode armazenar qualquer tipo de dado.
-Exercício 4: Safe Call
-Objetivo: Trabalhar com o operador Safe Call (?.).
+- Crie uma `RawString` (usando três aspas duplas `"""`).
+- Adicione um texto com várias linhas e caracteres especiais.
+- Crie uma variável `nome` do tipo `String` e atribua um nome a ela.
+- Use interpolação de strings para criar uma mensagem que inclua o nome da pessoa e imprima-a.
 
-Crie uma variável pessoa do tipo Pessoa? (pode ser uma classe simples que tenha o nome como String).
-Inicialize a variável com um objeto de Pessoa ou null.
-Use a Safe Call para acessar o nome da pessoa de forma segura e imprima o resultado. Verifique o comportamento quando a variável for null.
-Exercício 5: Elvis Operator
-Objetivo: Trabalhar com o Elvis Operator (?:).
+---
 
-Crie uma função que receba uma String como parâmetro e retorne o tamanho dela.
-Se a String for null, retorne o valor 0 utilizando o Elvis Operator.
-Teste a função com uma String válida e uma null.
-Exercício 6: Null Check
-Objetivo: Fazer verificações de null.
+## Exercício 3: Inferência de Tipo e Tipo Any
+**Objetivo:** Trabalhar com inferência de tipos e o tipo `Any`.
 
-Crie uma variável idade do tipo Int? e atribua o valor null.
-Verifique se a variável idade é null antes de imprimir seu valor (utilize um if ou ?.).
-Modifique a variável para um valor numérico e faça a verificação novamente.
-Exercício 7: Expressão When
-Objetivo: Utilizar a expressão when no Kotlin.
+- Crie uma variável `numero` que contenha um número inteiro, e uma variável `texto` que contenha uma `String`. Deixe o Kotlin inferir os tipos automaticamente.
+- Crie uma variável `objeto` do tipo `Any` e atribua a ela um número inteiro, uma `String` e um booleano. Imprima os valores.
+- Mostre que a variável `objeto` pode armazenar qualquer tipo de dado.
 
-Crie uma função chamada verificarDia que recebe um número (representando o dia da semana) e retorna o nome do dia como uma String.
-Use a expressão when para fazer essa verificação.
-Exemplo: Se o número for 1, o retorno deve ser "Segunda-feira", e assim por diante.
-Imprima o nome do dia para um número fornecido.
-Exercício 8: Estruturas de Repetição: for, while ou do-while
-Objetivo: Trabalhar com as estruturas de repetição no Kotlin.
+---
 
-Crie uma função que use um laço for para imprimir os números de 1 a 10.
-Crie uma outra função que use um laço while para imprimir os números de 10 a 1.
-Por fim, crie uma função que utilize um laço do-while para imprimir os números de 5 até 15.
-Exercício 9: Entrada de Dados
-Objetivo: Ler entradas de dados do usuário.
+## Exercício 4: Safe Call
+**Objetivo:** Trabalhar com o operador Safe Call (`?.`).
 
-Peça ao usuário para digitar seu nome e idade.
-Armazene essas informações em variáveis nome e idade.
-Imprima uma mensagem que combine essas informações, dizendo algo como: "Olá, [nome], você tem [idade] anos."
-Exercício 10: Misturando Tudo (Desafio)
-Objetivo: Utilizar vários conceitos de uma vez.
+- Crie uma variável `pessoa` do tipo `Pessoa?` (pode ser uma classe simples que tenha o nome como `String`).
+- Inicialize a variável com um objeto de `Pessoa` ou `null`.
+- Use a Safe Call para acessar o nome da pessoa de forma segura e imprima o resultado. Verifique o comportamento quando a variável for `null`.
 
-Crie uma função que receba uma string representando o nome de uma pessoa e um número inteiro representando a idade.
-Dentro da função, faça as seguintes verificações:
-Se o nome é null, use o Elvis Operator para atribuir o valor "Desconhecido".
-Se a idade for menor que 18, imprima "Menor de idade", caso contrário, imprima "Maior de idade".
-Utilize o when para determinar uma mensagem personalizada para cada faixa etária (por exemplo, "Criança", "Adolescente", "Adulto", "Idoso").
+---
+
+## Exercício 5: Elvis Operator
+**Objetivo:** Trabalhar com o Elvis Operator (`?:`).
+
+- Crie uma função que receba uma `String` como parâmetro e retorne o tamanho dela.
+- Se a `String` for `null`, retorne o valor `0` utilizando o Elvis Operator.
+- Teste a função com uma `String` válida e uma `null`.
+
+---
+
+## Exercício 6: Null Check
+**Objetivo:** Fazer verificações de `null`.
+
+- Crie uma variável `idade` do tipo `Int?` e atribua o valor `null`.
+- Verifique se a variável `idade` é `null` antes de imprimir seu valor (utilize um `if` ou `?.`).
+- Modifique a variável para um valor numérico e faça a verificação novamente.
+
+---
+
+## Exercício 7: Expressão When
+**Objetivo:** Utilizar a expressão `when` no Kotlin.
+
+- Crie uma função chamada `verificarDia` que recebe um número (representando o dia da semana) e retorna o nome do dia como uma `String`.
+- Use a expressão `when` para fazer essa verificação.
+  - Exemplo: Se o número for `1`, o retorno deve ser `"Segunda-feira"`, e assim por diante.
+- Imprima o nome do dia para um número fornecido.
+
+---
+
+## Exercício 8: Estruturas de Repetição: `for`, `while` ou `do-while`
+**Objetivo:** Trabalhar com as estruturas de repetição no Kotlin.
+
+- Crie uma função que use um laço `for` para imprimir os números de 1 a 10.
+- Crie uma outra função que use um laço `while` para imprimir os números de 10 a 1.
+- Por fim, crie uma função que utilize um laço `do-while` para imprimir os números de 5 até 15.
+
+---
+
+## Exercício 9: Entrada de Dados
+**Objetivo:** Ler entradas de dados do usuário.
+
+- Peça ao usuário para digitar seu nome e idade.
+- Armazene essas informações em variáveis `nome` e `idade`.
+- Imprima uma mensagem que combine essas informações, dizendo algo como: `"Olá, [nome], você tem [idade] anos."`
+
+---
+
+## Exercício 10: Misturando Tudo (Desafio)
+**Objetivo:** Utilizar vários conceitos de uma vez.
+
+- Crie uma função que receba uma `String` representando o nome de uma pessoa e um número inteiro representando a idade.
+- Dentro da função, faça as seguintes verificações:
+  - Se o nome é `null`, use o Elvis Operator para atribuir o valor `"Desconhecido"`.
+  - Se a idade for menor que 18, imprima `"Menor de idade"`, caso contrário, imprima `"Maior de idade"`.
+  - Utilize o `when` para determinar uma mensagem personalizada para cada faixa etária (por exemplo, `"Criança"`, `"Adolescente"`, `"Adulto"`, `"Idoso"`).
+
+---
