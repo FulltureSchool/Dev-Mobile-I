@@ -1,71 +1,102 @@
-Exercício 1: Manipulando Arrays
-Objetivo: Criar e manipular um array.
+# Exercícios de Manipulação de Collections - Kotlin
 
-Crie um array de inteiros com 10 elementos.
-Preencha o array com valores de 1 a 10.
-Imprima todos os elementos do array.
-Implemente uma função que calcule a soma dos elementos do array.
-Exercício 2: Arrays Multidimensionais
-Objetivo: Trabalhar com arrays multidimensionais.
+## Exercício 1: Manipulando Arrays
+**Objetivo:** Criar e manipular um array.
 
-Crie um array bidimensional (matriz) de inteiros 3x3.
-Preencha a matriz com valores numéricos aleatórios.
-Imprima a matriz na tela de forma organizada.
-Exercício 3: Listas Simples
-Objetivo: Criar e manipular listas no Kotlin.
+- Crie um array de inteiros com 10 elementos.
+- Preencha o array com valores de 1 a 10.
+- Imprima todos os elementos do array.
+- Implemente uma função que calcule a soma dos elementos do array.
 
-Crie uma lista de Strings contendo o nome de 5 frutas.
-Imprima a lista.
-Adicione mais duas frutas na lista.
-Remova uma fruta da lista.
-Verifique se a lista contém uma fruta específica e imprima o resultado.
-Exercício 4: Listas Imutáveis e Mutáveis
-Objetivo: Diferenciar e trabalhar com listas imutáveis e mutáveis.
+---
 
-Crie uma lista imutável de inteiros com 5 elementos.
-Crie uma lista mutável de inteiros e adicione 5 elementos.
-Tente modificar a lista imutável (isso deverá gerar um erro, como demonstração).
-Imprima ambas as listas e mostre a diferença no comportamento delas.
-Exercício 5: Set
-Objetivo: Trabalhar com o tipo Set.
+## Exercício 2: Arrays Multidimensionais
+**Objetivo:** Trabalhar com arrays multidimensionais.
 
-Crie um Set de Strings contendo o nome de 5 cidades.
-Tente adicionar cidades duplicadas e imprima o Set após cada adição (verifique se duplicatas são ignoradas).
-Remova uma cidade do Set e imprima o Set final.
-Exercício 6: Operações com Set
-Objetivo: Realizar operações entre dois Sets.
+- Crie um array bidimensional (matriz) de inteiros 3x3.
+- Preencha a matriz com valores numéricos aleatórios.
+- Imprima a matriz na tela de forma organizada.
 
-Crie dois Sets de inteiros.
-Set 1: {1, 2, 3, 4, 5}
-Set 2: {4, 5, 6, 7, 8}
-Realize as seguintes operações:
-União entre os dois Sets.
-Interseção entre os dois Sets.
-Diferença entre os dois Sets.
-Exercício 7: Map
-Objetivo: Trabalhar com Map (dicionários).
+---
 
-Crie um Map onde as chaves são Strings (nomes de pessoas) e os valores são Inteiros (idades).
-Adicione 3 entradas no Map.
-Imprima o Map completo.
-Adicione uma nova entrada e remova uma existente.
-Acesse o valor de uma chave específica e imprima a idade de uma pessoa.
-Exercício 8: Manipulando Map com Funções
-Objetivo: Manipular e percorrer Map com funções do Kotlin.
+## Exercício 3: Listas Simples
+**Objetivo:** Criar e manipular listas no Kotlin.
 
-Crie um Map de notas de alunos onde as chaves são Strings (nomes de alunos) e os valores são Doubles (notas).
-Use uma função para calcular a média das notas.
-Percorra o Map e imprima o nome do aluno junto com a sua nota.
-Exercício 9: Ordenação de Listas e Sets
-Objetivo: Ordenar Listas e Sets.
+- Crie uma lista de Strings contendo o nome de 5 frutas.
+- Imprima a lista.
+- Adicione mais duas frutas na lista.
+- Remova uma fruta da lista.
+- Verifique se a lista contém uma fruta específica e imprima o resultado.
 
-Crie uma lista mutável de inteiros.
-Ordene a lista em ordem crescente e decrescente.
-Crie um Set de Strings e ordene-o alfabeticamente.
-Exercício 10: Combinando Collections
-Objetivo: Combinar List, Set e Map.
+---
 
-Crie uma lista de Strings com 10 palavras aleatórias.
-Converta essa lista em um Set (para remover duplicatas).
-Crie um Map onde a chave é a palavra da lista e o valor é o número de caracteres dessa palavra.
-Imprima o Map resultante.
+## Exercício 4: Listas Imutáveis e Mutáveis
+**Objetivo:** Diferenciar e trabalhar com listas imutáveis e mutáveis.
+
+- Crie uma lista imutável de inteiros com 5 elementos.
+- Crie uma lista mutável de inteiros e adicione 5 elementos.
+- Tente modificar a lista imutável (isso deverá gerar um erro, como demonstração).
+- Imprima ambas as listas e mostre a diferença no comportamento delas.
+
+---
+
+## Exercício 5: Set
+**Objetivo:** Trabalhar com o tipo Set.
+
+- Crie um Set de Strings contendo o nome de 5 cidades.
+- Tente adicionar cidades duplicadas e imprima o Set após cada adição (verifique se duplicatas são ignoradas).
+- Remova uma cidade do Set e imprima o Set final.
+
+---
+
+## Exercício 6: Operações com Set
+**Objetivo:** Realizar operações entre dois Sets.
+
+- Crie dois Sets de inteiros.
+  - Set 1: `{1, 2, 3, 4, 5}`
+  - Set 2: `{4, 5, 6, 7, 8}`
+- Realize as seguintes operações:
+  - União entre os dois Sets.
+  - Interseção entre os dois Sets.
+  - Diferença entre os dois Sets.
+
+---
+
+## Exercício 7: Map
+**Objetivo:** Trabalhar com Map (dicionários).
+
+- Crie um Map onde as chaves são Strings (nomes de pessoas) e os valores são Inteiros (idades).
+- Adicione 3 entradas no Map.
+- Imprima o Map completo.
+- Adicione uma nova entrada e remova uma existente.
+- Acesse o valor de uma chave específica e imprima a idade de uma pessoa.
+
+---
+
+## Exercício 8: Manipulando Map com Funções
+**Objetivo:** Manipular e percorrer Map com funções do Kotlin.
+
+- Crie um Map de notas de alunos onde as chaves são Strings (nomes de alunos) e os valores são Doubles (notas).
+- Use uma função para calcular a média das notas.
+- Percorra o Map e imprima o nome do aluno junto com a sua nota.
+
+---
+
+## Exercício 9: Ordenação de Listas e Sets
+**Objetivo:** Ordenar Listas e Sets.
+
+- Crie uma lista mutável de inteiros.
+- Ordene a lista em ordem crescente e decrescente.
+- Crie um Set de Strings e ordene-o alfabeticamente.
+
+---
+
+## Exercício 10: Combinando Collections
+**Objetivo:** Combinar List, Set e Map.
+
+- Crie uma lista de Strings com 10 palavras aleatórias.
+- Converta essa lista em um Set (para remover duplicatas).
+- Crie um Map onde a chave é a palavra da lista e o valor é o número de caracteres dessa palavra.
+- Imprima o Map resultante.
+
+---
